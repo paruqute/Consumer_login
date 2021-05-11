@@ -11,10 +11,10 @@ class TopBottom extends StatelessWidget {
         children: [
           Positioned(
             top: 0,
-            left: 4,
+            left: 6,
             child: Container(
-              height:size.height *0.12,
-              width:size.width*0.35,
+              height:size.height *0.10,
+              width:size.width*0.30,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.only(
                     topRight: Radius.circular(200),
@@ -40,12 +40,12 @@ class TopBottom extends StatelessWidget {
             top:0,
             left: 0,
             child: Container(
-              height:size.height*0.18,
-              width: size.width*0.19,
+              height:size.height*0.15,
+              width: size.width*0.16,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(350),
-                  bottomLeft: Radius.circular(350),
+                  topRight: Radius.circular(300),
+                  bottomLeft: Radius.circular(250),
 
                 ),
 

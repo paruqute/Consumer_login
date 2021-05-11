@@ -66,8 +66,8 @@ class BottomUi extends StatelessWidget {
             bottom: 0,
             right: 4,
             child: Container(
-              height:size.height *0.12,
-              width:size.width*0.35,
+              height:size.height *0.10,
+              width:size.width*0.33,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(200),
@@ -93,8 +93,9 @@ class BottomUi extends StatelessWidget {
             bottom:0,
             right: 0,
             child: Container(
-              height:size.height*0.18,
-              width: size.width*0.19,
+
+              height:size.height*0.15,
+              width: size.width*0.17,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
                   //topLeft: Radius.circular(300),
